@@ -10,8 +10,6 @@ from sklearn.metrics import roc_auc_score
 df = pd.read_csv("labeledTrainData.tsv", header=0, delimiter="\t", quoting=3)
 df.dropna(inplace=True)
 df["Postive rated"]=np.where(df['sentiment']>0,1,0)
-#df.loc[df["Postive rated"] == 1,"Postive rated"]='good feedback'
-#df.loc[df["Postive rated"] == 0,"Postive rated"]='bad feedback'
 X_train, X_test, y_train, y_test = train_test_split(df['review'],df['Postive rated'],random_state=0)
 
 # converting text into number's using CountVectorizer
