@@ -1,0 +1,1 @@
+Understanding the concept beined the text classification and implemented using NLP and Logistic regression
