@@ -6,7 +6,7 @@ As the name suggest, this algorithm creates the forest with a number of trees.
 The more number of trees in the forest gives the **high accuracy result**.
 
 <p align="center">
-  <img width="400" height="300" src="https://github.com/Balajisivakumar92/100_DAYS_OF_ML_CHALLENGE/blob/master/ML%20code-s/Day%2011-%20random%20forest/img/images.png">
+  <img width="500" height="350" src="https://github.com/Balajisivakumar92/100_DAYS_OF_ML_CHALLENGE/blob/master/ML%20code-s/Day%2011-%20random%20forest/img/images.png">
 </p>
      
      > You might be thinking are we creating more number of decision trees and how can we create more number of decision trees. As all the calculation of nodes selection will be same for the same dataset.
