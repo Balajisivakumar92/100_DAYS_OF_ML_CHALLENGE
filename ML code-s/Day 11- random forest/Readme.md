@@ -4,7 +4,9 @@ Random forest algorithm is a supervised classification algorithm.
 As the name suggest, this algorithm creates the forest with a number of trees.
 
 ##### * The more number of trees in the forest gives the high accuracy result.
-![alt tag](http://url/to/img.png)
+
+![alt tag](https://github.com/Balajisivakumar92/100_DAYS_OF_ML_CHALLENGE/blob/master/ML%20code-s/Day%2011-%20random%20forest/img/Random-Forest-Introduction.jpg)
+     
      > You might be thinking are we creating more number of decision trees and how can we create more number of decision trees. As all the calculation of nodes selection will be same for the same dataset.
 
      > Yes. You are true. To model more number of decision trees to create the forest you are not going to use the same apache of constructing the decision with information gain or gini index approach.
