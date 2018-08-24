@@ -16,7 +16,13 @@ The more number of trees in the forest gives the **high accuracy result**.
      > In decision tree algorithm calculating these nodes and forming the rules will happen using the information gain and gini index calculations.
 
      > But In random forest algorithm, Instead of using information gain or gini index for calculating the root node, the process of finding the root node and splitting the feature nodes will happen randomly.
+     
 ## Take any Sample dataset
+
+<p align="center">
+  <img width="500" height="350" src="https://github.com/Balajisivakumar92/100_DAYS_OF_ML_CHALLENGE/blob/master/ML%20code-s/Day%2011-%20random%20forest/img/sparkmlrandomforest.png">
+</p>
+
 #### step 1:
       Pick at random "k" data points from the training set.
 #### step 2:
@@ -60,3 +66,13 @@ The more number of trees in the forest gives the **high accuracy result**.
      In e-commerce, the random forest used only in the small segment of the recommendation engine for identifying the likely hood of customer liking the recommend products base on the similar kinds of customers.
 
      Running random forest algorithm on very large dataset requires high-end GPU systems. If you are not having any GPU system. You can always run the machine learning models in cloud hosted desktop. You can use clouddesktoponline platform to run high-end machine learning models from sitting any corner of the world.
+
+## Advantages of random forest algorithm
+
+Below are the advantages of random forest algorithm compared with other classification algorithms.
+
+    1.The overfitting problem will never come when we use the random forest algorithm in any classification problem.
+    2.The same random forest algorithm can be used for both classification and regression task.
+    3.The random forest algorithm can be used for feature engineering.
+    4.Which means identifying the most important features out of the available features from the training dataset.
+
