@@ -7,9 +7,11 @@ import matplotlib.pyplot as plt
 import pandas as pd
 ```
 ### Importing the dataset
+
 <p align="center">
   <img width="500" height="350" src="https://github.com/Balajisivakumar92/100_DAYS_OF_ML_CHALLENGE/blob/master/ML%20code-s/Day%2011-%20random%20forest/img/random_forest_dataset.png">
 </p>
+
 ```python
 dataset = pd.read_csv('Social_Network_Ads.csv')
 X = dataset.iloc[:, [2, 3]].values
