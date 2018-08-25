@@ -58,6 +58,10 @@ plt.ylabel('Estimated Salary')
 plt.legend()
 plt.show()
 ```
+<p align="center">
+  <img width="500" height="350" src="https://github.com/Balajisivakumar92/100_DAYS_OF_ML_CHALLENGE/blob/master/ML%20code-s/Day%2011-%20random%20forest/img/training_result.png">
+</p>
+
 ### Visualising the Test set results
 ```python
 from matplotlib.colors import ListedColormap
@@ -77,3 +81,7 @@ plt.ylabel('Estimated Salary')
 plt.legend()
 plt.show()
 ```
+<p align="center">
+  <img width="500" height="350" src="https://github.com/Balajisivakumar92/100_DAYS_OF_ML_CHALLENGE/blob/master/ML%20code-s/Day%2011-%20random%20forest/img/test_result.png">
+</p>
+
