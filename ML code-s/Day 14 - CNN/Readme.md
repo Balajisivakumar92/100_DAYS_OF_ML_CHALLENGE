@@ -1,3 +1,5 @@
+# Infographic for CNN
+
 <p align="center">
-<img width="600" height="350" src="https://github.com/Balajisivakumar92/UDEMY-machine-learning/blob/master/PART-8/IMG/main-qimg-ff5c2723500aa15e26b6fb1d9dd16534.png">
+<img width="600" height="350" src="https://github.com/Balajisivakumar92/100_DAYS_OF_ML_CHALLENGE/blob/master/ML%20code-s/Day%2014%20-%20CNN/imgs/summary%20OF%20cnn.jpg">
 </p>
