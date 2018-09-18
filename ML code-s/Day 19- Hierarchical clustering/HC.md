@@ -23,7 +23,7 @@ plt.ylabel('Euclidean distances')
 plt.show()
 ```
 <p align = "center">
-  <img width = "1000" height = "350" src = "https://github.com/Balajisivakumar92/100_DAYS_OF_ML_CHALLENGE/blob/master/ML%20code-s/Day%2019-%20Hierarchical%20clustering/img/dendro%20gram%20result.png">
+  <img width = "500" height = "350" src = "https://github.com/Balajisivakumar92/100_DAYS_OF_ML_CHALLENGE/blob/master/ML%20code-s/Day%2019-%20Hierarchical%20clustering/img/dendro%20gram%20result.png">
 </p>
 
 ### Fitting Hierarchical Clustering to the dataset
