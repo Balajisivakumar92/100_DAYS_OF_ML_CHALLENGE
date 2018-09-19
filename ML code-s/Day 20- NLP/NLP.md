@@ -61,8 +61,9 @@ y_pred = classifier.predict(X_test)
 from sklearn.metrics import confusion_matrix
 cm = confusion_matrix(y_test, y_pred)
 ```
-## OUTPUT
-Accuracy(naive_bayes) :  0.73
-Recall(naive_bayes) :  0.883495145631068
-Precision(naive_bayes) :  0.6842105263157895
-F1_score(naive_bayes) :  0.7711864406779663
+##Result
+
+    Accuracy(naive_bayes) :  0.73
+    Recall(naive_bayes) :  0.883495145631068
+    Precision(naive_bayes) :  0.6842105263157895
+    F1_score(naive_bayes) :  0.7711864406779663
