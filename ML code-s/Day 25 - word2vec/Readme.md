@@ -30,8 +30,8 @@ This is just a very simple method to represent a word in the vector form. Let us
 
 The different types of word embeddings can be broadly classified into two categories-
 
-    Frequency based Embedding
-    Prediction based Embedding
+    I.Frequency based Embedding
+    II.Prediction based Embedding
 
 Let us try to understand each of these methods in detail.
 
@@ -39,9 +39,9 @@ Let us try to understand each of these methods in detail.
 
 There are generally three types of vectors that we encounter under this category.
 
-    Count Vector
-    TF-IDF Vector
-    Co-Occurrence Vector
+    I.Count Vector
+    II.TF-IDF Vector
+    III.Co-Occurrence Vector
 
 Let us look into each of these vectorization methods in detail.
 
