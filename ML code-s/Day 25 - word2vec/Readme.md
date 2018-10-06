@@ -61,9 +61,9 @@ Here, D=2, N=6
 
 The count matrix M of size 2 X 6 will be represented as –
 
-    He	She	lazy	boy	Neeraj	person
-D1	1	   1	  2	   1	  0	      0
-D2	0	   0	  1	   0	  1	      1
+<p align = "center">
+    <img src = "https://github.com/Balajisivakumar92/100_DAYS_OF_ML_CHALLENGE/blob/master/ML%20code-s/Day%2025%20-%20word2vec/img/count%20vector.png">
+</p>
 
 Now, a column can also be understood as word vector for the corresponding word in the matrix M. For example, the word vector for ‘lazy’ in the above matrix is [2,1] and so on.Here, the rows correspond to the documents in the corpus and the columns correspond to the tokens in the dictionary. The second row in the above matrix may be read as – D2 contains ‘lazy’: once, ‘Neeraj’: once and ‘person’ once.
 
