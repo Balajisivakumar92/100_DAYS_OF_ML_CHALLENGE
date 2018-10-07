@@ -24,7 +24,7 @@ corpus= x+y
 
 ```python
 # creating token embedding
-nltk.download("punkt")
+nltk.download("punkt") # pre-trained tokenization
 tok_corp= [nltk.word_tokenize(sent.encode('utf-8').decode('utf-8')) for sent in corpus]
 ```
 
