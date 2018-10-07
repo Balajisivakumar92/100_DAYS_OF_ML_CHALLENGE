@@ -101,4 +101,4 @@ Let us first see a diagrammatic representation of the CBOW model.
         The weight  between the hidden layer and the output layer is taken as the word vector representation of the word.
 
 
-link - https://www.analyticsvidhya.com/blog/2017/06/word-embeddings-count-word2veec/
+Ref link - https://www.analyticsvidhya.com/blog/2017/06/word-embeddings-count-word2veec/
