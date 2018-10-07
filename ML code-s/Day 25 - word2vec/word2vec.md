@@ -33,7 +33,9 @@ tok_corp= [nltk.word_tokenize(sent.encode('utf-8').decode('utf-8')) for sent in 
 model = gensim.models.Word2Vec(tok_corp, min_count=1, size = 32)
 ```
 
+```python
 #model.save('testmodel')
 #model = gensim.models.Word2Vec.load('test_model')
 #model.most_similar('word')
 #model.most_similar([vector])
+```
