@@ -67,3 +67,35 @@ The count matrix M of size 2 X 6 will be represented as –
 
 Now, a column can also be understood as word vector for the corresponding word in the matrix M. For example, the word vector for ‘lazy’ in the above matrix is [2,1] and so on.Here, the rows correspond to the documents in the corpus and the columns correspond to the tokens in the dictionary. The second row in the above matrix may be read as – D2 contains ‘lazy’: once, ‘Neeraj’: once and ‘person’ once.
 
+### 2.1.2 TF-IDF vectorization
+
+## 2.2 Prediction based Vector
+
+### 2.2.1 CBOW (Continuous Bag of words)
+
+The way CBOW work is that it tends to predict the probability of a word given a context. A context may be a single word or a group of words. But for simplicity, I will take a single context word and try to predict a single target word.
+
+Suppose, we have a corpus C = “Hey, this is sample corpus using only one context word.” and we have defined a context window of 1. This corpus may be converted into a training set for a CBOW model as follow. The input is shown below. The matrix on the right in the below image contains the one-hot encoded from of the input on the left.
+
+<p align = "center">
+    <img src = "https://github.com/Balajisivakumar92/100_DAYS_OF_ML_CHALLENGE/blob/master/ML%20code-s/Day%2025%20-%20word2vec/img/cbow1.png">
+</p>
+
+This matrix shown in the above image is sent into a shallow neural network with three layers: an input layer, a hidden layer and an output layer. The output layer is a softmax layer which is used to sum the probabilities obtained in the output layer to 1. Now let us see how the forward propagation will work to calculate the hidden layer activation.
+
+Let us first see a diagrammatic representation of the CBOW model.
+
+<p align = "center">
+    <img src = "https://github.com/Balajisivakumar92/100_DAYS_OF_ML_CHALLENGE/blob/master/ML%20code-s/Day%2025%20-%20word2vec/img/Screenshot-from-2017-06-04-22-40-29.png">
+</p>
+
+### The flow is as follows:
+
+        The input layer and the target, both are one- hot encoded of size [1 X V]. Here V=10 in the above example.
+        There are two sets of weights. one is between the input and the hidden layer and second between hidden and output layer.
+        Input-Hidden layer matrix size =[V X N] , hidden-Output layer matrix  size =[N X V] : Where N is the number of dimensions we choose to represent our word in. It is arbitary and a hyper-parameter for a Neural Network. Also, N is the number of neurons in the hidden layer. Here, N=4.
+        There is a no activation function between any layers.( More specifically, I am referring to linear activation)
+        The input is multiplied by the input-hidden weights and called hidden activation. It is simply the corresponding row in the input-hidden matrix copied.
+        The hidden input gets multiplied by hidden- output weights and output is calculated.
+        Error between output and target is calculated and propagated back to re-adjust the weights.
+        The weight  between the hidden layer and the output layer is taken as the word vector representation of the word.
