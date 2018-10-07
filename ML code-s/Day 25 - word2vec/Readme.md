@@ -99,3 +99,6 @@ Let us first see a diagrammatic representation of the CBOW model.
         The hidden input gets multiplied by hidden- output weights and output is calculated.
         Error between output and target is calculated and propagated back to re-adjust the weights.
         The weight  between the hidden layer and the output layer is taken as the word vector representation of the word.
+
+
+link - https://www.analyticsvidhya.com/blog/2017/06/word-embeddings-count-word2veec/
